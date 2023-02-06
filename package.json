@@ -25,7 +25,10 @@
       "es2021": true
     },
     "extends": [
+      "eslint:recommended",
+      "plugin:import/errors",
       "plugin:react/recommended",
+      "plugin:jsx-ally/recommended",
       "airbnb",
       "prettier"
     ],
@@ -35,11 +38,13 @@
       "sourceType": "module"
     },
     "plugins": [
-      "react"
+      "react",
+      "import",
+      "jsx-a11y"
     ],
     "ignorePatterns": [
       "webpack.config.js",
-      "index_bundle.js"
+      "bundle.js"
     ],
     "rules": {
       "react/prop-types": "off"
@@ -68,6 +73,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.1"
   }
 }
