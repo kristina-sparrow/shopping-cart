@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import { AiOutlineMinus } from "react-icons/ai";
 
-export default function CartItem({ id, img, title, price, quantity }) {
+export default function CartItem({ id, title, price, img, quantity }) {
   const sumPrice = () => {
     return (cartItem.price * cartItem.quantity).toFixed(2);
   };
