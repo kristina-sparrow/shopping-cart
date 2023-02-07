@@ -10,10 +10,10 @@ export default function Main() {
   return (
     <main className="main">
       <Routes>
-        <Route exact path={routes.HOME} component={Home} />
-        <Route exact path={routes.PRODUCTS} component={Products} />
-        <Route exact path={routes.CONTACT} component={Contact} />
-        <Route exact path={routes.CART} component={Cart} />
+        <Route exact path={routes.HOME} element={<Home />} />
+        <Route exact path={routes.PRODUCTS} element={<Products />} />
+        <Route exact path={routes.CONTACT} element={<Contact />} />
+        <Route exact path={routes.CART} element={<Cart />} />
       </Routes>
     </main>
   );

@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -18,11 +17,9 @@ export default function App() {
 
   return (
     <>
-      <Router>
-        <Header />
-        <Main />
-        <Footer />
-      </Router>
+      <Header />
+      <Main />
+      <Footer />
       {isOpen && <Modal />}
     </>
   );
