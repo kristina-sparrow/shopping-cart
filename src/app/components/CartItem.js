@@ -6,9 +6,11 @@ import { AiOutlineMinus } from "react-icons/ai";
 
 export default function CartItem({ id, title, price, img, quantity }) {
   const dispatch = useDispatch();
+
   const sumPrice = () => {
     return (cartItem.price * cartItem.quantity).toFixed(2);
   };
+
   return (
     <article className="cart-item">
       <img className="cart-item-image" src={img} alt={title} />
