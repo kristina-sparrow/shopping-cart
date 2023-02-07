@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Products from "./pages/products/Products";
 import Contact from "./pages/Contact";
@@ -9,12 +9,12 @@ import routes from "../constants/routes.json";
 export default function Main() {
   return (
     <main className="main">
-      <Switch>
+      <Routes>
         <Route exact path={routes.HOME} component={Home} />
         <Route exact path={routes.PRODUCTS} component={Products} />
         <Route exact path={routes.CONTACT} component={Contact} />
         <Route exact path={routes.CART} component={Cart} />
-      </Switch>
+      </Routes>
     </main>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import CartItem from "./CartItem";
 import { useSelector, useDispatch } from "react-redux";
-import { openModal } from "../../state/modalSlice";
+import { openModal } from "../../../state/modalSlice";
 
 export default function Cart() {
   const { cartItems, quantity, total } = useSelector((state) => state.cart);

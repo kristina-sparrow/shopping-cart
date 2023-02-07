@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { clearCart } from "../state/cartSlice";
 import { closeModal } from "../state/modalSlice";
-import { AiOutlineClose } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
 
 export default function Modal() {
   const dispatch = useDispatch();

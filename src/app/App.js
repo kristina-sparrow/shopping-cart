@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal";
-import { useDispatch, useSelector } from "react-redux";
 import { calculateTotals } from "./state/cartSlice";
 
 export default function App() {
