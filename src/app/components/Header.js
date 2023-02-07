@@ -2,31 +2,41 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import routes from "../constants/routes.json";
-import { FaShoppingCart } from "react-icons/fa";
+import { BsBag } from "react-icons/bs";
 
 export default function Header() {
   const { quantity } = useSelector((state) => state.cart);
 
   return (
     <header className="header">
-      <div className="container-header">
+      <div className="header-logo">
         <Link to={routes.HOME}>
-          <h1 className="header-logo">The Floating World</h1>
+          <h1>The Floating World</h1>
         </Link>
-        <nav className="header-nav">
-          <Link to={routes.HOME}>Home</Link>
-          <Link to={routes.PRODUCTS}>Products</Link>
-          <Link to={routes.CONTACT}>Contact</Link>
-          <Link to={routes.CART}>
-            <div className="container-header-cart">
-              <FaShoppingCart />
-              {quantity > 0 ? (
-                <div className="quantity-cart">{quantity}</div>
-              ) : null}
-            </div>
-          </Link>
-        </nav>
       </div>
+      <nav className="header-nav">
+        <ul>
+          <li className="header-nav-link">
+            <Link to={routes.HOME}>Home</Link>
+          </li>
+          <li className="header-nav-link">
+            <Link to={routes.PRODUCTS}>Products</Link>
+          </li>
+          <li className="header-nav-link">
+            <Link to={routes.CONTACT}>Contact</Link>
+          </li>
+          <li className="header-nav-link">
+            <Link to={routes.CART}>
+              <div className="header-cart">
+                <BsBag />
+                {quantity > 0 ? (
+                  <span className="header-cart-badge">{quantity}</span>
+                ) : null}
+              </div>
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }
