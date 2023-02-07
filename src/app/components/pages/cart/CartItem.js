@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { removeItem, increase, decrease } from "../state/cartSlice";
+import { removeItem, increase, decrease } from "../../state/cartSlice";
 import { AiOutlinePlus } from "react-icons/ai";
 import { AiOutlineMinus } from "react-icons/ai";
 

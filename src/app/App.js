@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import Cart from "./components/Cart";
+import Modal from "./components/Modal";
 import { useDispatch, useSelector } from "react-redux";
 import { calculateTotals } from "./state/cartSlice";
 
@@ -24,7 +24,6 @@ export default function App() {
         <Main />
         <Footer />
       </Router>
-      <Cart />
       {isOpen && <Modal />}
     </>
   );
