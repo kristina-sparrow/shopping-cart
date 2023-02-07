@@ -17,14 +17,14 @@ export default function Header() {
           <Link to={routes.HOME}>Home</Link>
           <Link to={routes.PRODUCTS}>Products</Link>
           <Link to={routes.CONTACT}>Contact</Link>
-          <div className="container-header-cart" onClick={openCart}>
-            <button className="btn btn-cart">
+          <Link to={routes.CART}>
+            <div className="container-header-cart">
               <FaShoppingCart />
-            </button>
-            {quantity > 0 ? (
-              <div className="quantity-cart">{quantity}</div>
-            ) : null}
-          </div>
+              {quantity > 0 ? (
+                <div className="quantity-cart">{quantity}</div>
+              ) : null}
+            </div>
+          </Link>
         </nav>
       </div>
     </header>
