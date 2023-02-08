@@ -1,13 +1,13 @@
-import "../assets/Actors-in-the-Snow-at-Ryogok.png";
-import "../assets/Courtesan-House-in-Tokyo.png";
-import "../assets/Enjoying-Flowers.png";
-import "../assets/Great-Battle-at-the-Akama-Straits.png";
-import "../assets/Lord-Harunaga-at-Mount-Komaki.png";
-import "../assets/Raiko-Attacking-Shuten-doji.png";
-import "../assets/Sumo-Wrestlers.png";
-import "../assets/Takatsuna-Swimming-with-Horse.png";
-import "../assets/View-in-the-Mountains-of-Hakone.png";
-import "../assets/View-of-Enoshima-Island.png";
+import img1 from "../assets/Actors-in-the-Snow-at-Ryogok.png";
+import img2 from "../assets/Courtesan-House-in-Tokyo.png";
+import img3 from "../assets/Enjoying-Flowers.png";
+import img4 from "../assets/Great-Battle-at-the-Akama-Straits.png";
+import img5 from "../assets/Lord-Harunaga-at-Mount-Komaki.png";
+import img6 from "../assets/Raiko-Attacking-Shuten-doji.png";
+import img7 from "../assets/Sumo-Wrestlers.png";
+import img8 from "../assets/Takatsuna-Swimming-with-Horse.png";
+import img9 from "../assets/View-in-the-Mountains-of-Hakone.png";
+import img10 from "../assets/View-of-Enoshima-Island.png";
 
 const products = [
   {
@@ -16,8 +16,7 @@ const products = [
     artist: "Utagawa Sadahide",
     date: "1863",
     price: "29.97",
-    img: "../assets/View-in-the-Mountains-of-Hakone.png",
-    quantity: 1,
+    img: img9,
   },
   {
     id: "gbatas",
@@ -25,8 +24,7 @@ const products = [
     artist: "Utagawa Sadahide",
     date: "1830",
     price: "29.97",
-    img: "../assets/Great-Battle-at-the-Akama-Straits.png",
-    quantity: 1,
+    img: img4,
   },
   {
     id: "aitsar",
@@ -34,8 +32,7 @@ const products = [
     artist: "Utagawa Kunisada",
     date: "1825",
     price: "29.97",
-    img: "../assets/Actors-in-the-Snow-at-Ryogok.png",
-    quantity: 1,
+    img: img1,
   },
   {
     id: "sw",
@@ -43,8 +40,7 @@ const products = [
     artist: "Utagawa Kunisada",
     date: "1843",
     price: "29.97",
-    img: "../assets/Sumo-Wrestlers.png",
-    quantity: 1,
+    img: img7,
   },
   {
     id: "ef",
@@ -52,8 +48,7 @@ const products = [
     artist: "Toyohara Kunichika",
     date: "1867",
     price: "29.97",
-    img: "../assets/Enjoying-Flowers.png",
-    quantity: 1,
+    img: img3,
   },
   {
     id: "voei",
@@ -61,8 +56,7 @@ const products = [
     artist: "Nobukazu Yosai",
     date: "1892",
     price: "29.97",
-    img: "../assets/View-of-Enoshima-Island.png",
-    quantity: 1,
+    img: img10,
   },
   {
     id: "tswh",
@@ -70,8 +64,7 @@ const products = [
     artist: "Utagawa Kuniyoshi",
     date: "1849",
     price: "29.97",
-    img: "../assets/Takatsuna-Swimming-with-Horse.png",
-    quantity: 1,
+    img: img8,
   },
   {
     id: "rasd",
@@ -79,8 +72,7 @@ const products = [
     artist: "Utagawa Kuniyoshi",
     date: "1851",
     price: "29.97",
-    img: "../assets/Raiko-Attacking-Shuten-doji.png",
-    quantity: 1,
+    img: img6,
   },
   {
     id: "chit",
@@ -88,8 +80,7 @@ const products = [
     artist: "Tsukioka Yoshitoshi",
     date: "1870",
     price: "29.97",
-    img: "../assets/Courtesan-House-in-Tokyo.png",
-    quantity: 1,
+    img: img2,
   },
   {
     id: "lhamk",
@@ -97,8 +88,7 @@ const products = [
     artist: "Tsukioka Yoshitoshi",
     date: "1864",
     price: "29.97",
-    img: "../assets/Lord-Harunaga-at-Mount-Komaki.png",
-    quantity: 1,
+    img: img5,
   },
 ];
 
