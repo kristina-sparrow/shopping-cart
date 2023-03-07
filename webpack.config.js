@@ -57,4 +57,5 @@ module.exports = {
     }),
     new MiniCssExtractPlugin(),
   ],
+  devtool: "eval-source-map",
 };

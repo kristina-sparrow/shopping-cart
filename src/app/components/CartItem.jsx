@@ -8,7 +8,7 @@ export default function CartItem({ id, title, price, img, quantity }) {
   const dispatch = useDispatch();
 
   const sumPrice = () => {
-    return (cartItem.price * cartItem.quantity).toFixed(2);
+    return (price * quantity).toFixed(2);
   };
 
   return (
