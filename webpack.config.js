@@ -45,6 +45,7 @@ module.exports = {
   devServer: {
     static: ["src"],
     hot: true,
+    historyApiFallback: true,
   },
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
