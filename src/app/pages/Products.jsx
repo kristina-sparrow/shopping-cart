@@ -1,6 +1,6 @@
 import React from "react";
-import ProductCard from "./ProductCard";
-import products from "../../../data/products";
+import ProductCard from "../components/ProductCard";
+import products from "../constants/products";
 
 export default function Products() {
   const productCards = products.map((product) => (

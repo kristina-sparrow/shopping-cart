@@ -1,13 +1,13 @@
-import img1 from "../assets/Actors-in-the-Snow-at-Ryogok.png";
-import img2 from "../assets/Courtesan-House-in-Tokyo.png";
-import img3 from "../assets/Enjoying-Flowers.png";
-import img4 from "../assets/Great-Battle-at-the-Akama-Straits.png";
-import img5 from "../assets/Lord-Harunaga-at-Mount-Komaki.png";
-import img6 from "../assets/Raiko-Attacking-Shuten-doji.png";
-import img7 from "../assets/Sumo-Wrestlers.png";
-import img8 from "../assets/Takatsuna-Swimming-with-Horse.png";
-import img9 from "../assets/View-in-the-Mountains-of-Hakone.png";
-import img10 from "../assets/View-of-Enoshima-Island.png";
+import img1 from "../../assets/Actors-in-the-Snow-at-Ryogok.png";
+import img2 from "../../assets/Courtesan-House-in-Tokyo.png";
+import img3 from "../../assets/Enjoying-Flowers.png";
+import img4 from "../../assets/Great-Battle-at-the-Akama-Straits.png";
+import img5 from "../../assets/Lord-Harunaga-at-Mount-Komaki.png";
+import img6 from "../../assets/Raiko-Attacking-Shuten-doji.png";
+import img7 from "../../assets/Sumo-Wrestlers.png";
+import img8 from "../../assets/Takatsuna-Swimming-with-Horse.png";
+import img9 from "../../assets/View-in-the-Mountains-of-Hakone.png";
+import img10 from "../../assets/View-of-Enoshima-Island.png";
 
 const products = [
   {
