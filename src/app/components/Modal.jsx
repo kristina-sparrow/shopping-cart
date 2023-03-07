@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { clearCart } from "../state/cartSlice";
 import { closeModal } from "../state/modalSlice";
@@ -8,11 +8,11 @@ export default function Modal() {
   const dispatch = useDispatch();
   const { type } = useSelector((state) => state.modal);
   const isCheckout = type === "checkout";
-  let confirmedCheckout = false;
+  const [confirmedCheckout, setConfirmedCheckout] = useState(false);
 
   const handleConfirm = () => {
     if (isCheckout) {
-      confirmedCheckout = true;
+      setConfirmedCheckout(true);
       dispatch(clearCart());
     } else {
       dispatch(clearCart());
