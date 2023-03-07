@@ -17,6 +17,9 @@ module.exports = {
       return `${filepath}/[name][ext]`;
     },
   },
+  resolve: {
+    extensions: [".js", ".jsx"],
+  },
   module: {
     rules: [
       {

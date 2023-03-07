@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Products from "./pages/products/Products";
-import Contact from "./pages/Contact";
-import Cart from "./pages/cart/Cart";
+import Home from "../pages/Home";
+import Products from "../pages/Products";
+import Contact from "../pages/Contact";
+import Cart from "../pages/Cart";
 import routes from "../constants/routes.json";
 
 export default function Main() {
