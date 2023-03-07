@@ -11,7 +11,7 @@ export default function Header() {
     <header className="header">
       <div className="header-logo">
         <Link to={routes.HOME}>
-          <h1>The Floating World</h1>
+          <h1>Ukiyo-e Shop</h1>
         </Link>
       </div>
       <nav className="header-nav">

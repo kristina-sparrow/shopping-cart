@@ -13,20 +13,22 @@ export default function CartItem({ id, title, price, img, quantity }) {
 
   return (
     <article className="cart-item">
-      <img className="cart-item-image" src={img} alt={title} />
       <div className="cart-item-container-left">
-        <h4 className="cart-item-title">{title}</h4>
-        <h4 className="cart-item-price">${price}</h4>
-        <button
-          className="btn btn-remove"
-          onClick={() => dispatch(removeItem(id))}
-        >
-          Remove
-        </button>
+        <img className="cart-item-image" src={img} alt={title} />
+        <div className="cart-item-container-details">
+          <h4 className="cart-item-title">{title}</h4>
+          <h4 className="cart-item-price">${price}</h4>
+          <button
+            className="btn btn-remove"
+            onClick={() => dispatch(removeItem(id))}
+          >
+            Remove
+          </button>
+        </div>
       </div>
       <div className="cart-item-container-right">
         <div className="cart-item-container-total">
-          <p className="cart-item-total">{sumPrice()}</p>
+          <p className="cart-item-total">${sumPrice()}</p>
         </div>
         <div className="cart-item-container-quantity">
           <button
