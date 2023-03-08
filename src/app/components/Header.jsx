@@ -25,7 +25,7 @@ export default function Header() {
           <li className="header-nav-link">
             <Link to={routes.CONTACT}>Contact</Link>
           </li>
-          <li className="header-nav-link">
+          <li>
             <Link to={routes.CART}>
               <div className="header-cart">
                 <BsBag />
