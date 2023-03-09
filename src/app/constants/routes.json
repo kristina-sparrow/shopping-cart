@@ -1,6 +1,6 @@
 {
-  "HOME": "/",
-  "PRODUCTS": "/products",
-  "CONTACT": "/contact",
+  "HOME": "/shopping-cart",
+  "PRODUCTS": "/shopping-cart/products",
+  "CONTACT": "/shopping-cart/contact",
   "CART": "/cart"
 }
