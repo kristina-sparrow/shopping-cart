@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import routes from "../constants/routes.json";
-import homepageImage from "../../assets/homepage-image.png";
+import homeImage from "../../assets/home-image.jpg";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
           <button className="btn btn-shop">Shop Now</button>
         </Link>
       </div>
-      <img src={homepageImage} className="hero-img" alt="Woodblock print" />
+      <img src={homeImage} className="hero-img" alt="Woodblock print" />
     </section>
   );
 }

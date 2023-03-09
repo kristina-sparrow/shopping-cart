@@ -1,8 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { removeItem, increase, decrease } from "../state/cartSlice";
-import { AiOutlinePlus } from "react-icons/ai";
-import { AiOutlineMinus } from "react-icons/ai";
+import { AiOutlinePlus, AiOutlineMinus, AiOutlineClose } from "react-icons/ai";
 
 export default function CartItem({ id, title, price, img, quantity }) {
   const dispatch = useDispatch();
@@ -22,6 +21,7 @@ export default function CartItem({ id, title, price, img, quantity }) {
             className="btn btn-remove"
             onClick={() => dispatch(removeItem(id))}
           >
+            <AiOutlineClose />
             Remove
           </button>
         </div>
@@ -32,14 +32,14 @@ export default function CartItem({ id, title, price, img, quantity }) {
         </div>
         <div className="cart-item-container-quantity">
           <button
-            className="btn btn-quantity"
+            className="btn btn-quantity add"
             onClick={() => dispatch(increase({ id }))}
           >
             <AiOutlinePlus />
           </button>
           <p className="cart-item-quantity">{quantity}</p>
           <button
-            className="btn btn-quantity"
+            className="btn btn-quantity subtract"
             onClick={() => {
               if (quantity === 1) {
                 dispatch(removeItem(id));

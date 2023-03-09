@@ -10,9 +10,9 @@ export default function Cart() {
 
   if (quantity < 1) {
     return (
-      <section className="page-section cart">
+      <section className="page-section cart empty" id="cart">
         <h2 className="page-title">Your cart</h2>
-        <h4 className="cart-empty">is currently empty</h4>
+        <h3 className="cart-empty">is currently empty</h3>
       </section>
     );
   }
@@ -33,7 +33,7 @@ export default function Cart() {
           <AiOutlineClose />
           Clear Cart
         </button>
-        <p>Total ${total.toFixed(2)}</p>
+        <p className="total-num">Total ${total.toFixed(2)}</p>
       </div>
       <button
         className="btn btn-checkout"

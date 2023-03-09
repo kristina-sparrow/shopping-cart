@@ -30,15 +30,15 @@ export default function Modal() {
           >
             <AiOutlineClose />
           </button>
-          <h4>Thank you!</h4>
+          <h2>Thank you!</h2>
         </div>
       ) : (
         <div className="modal-container">
-          <h4>
+          <h2>
             {isCheckout
               ? "Checkout your items?"
               : "Remove all items from your cart?"}
-          </h4>
+          </h2>
           <div className="modal-button-container">
             <button className="btn btn-confirm" onClick={handleConfirm}>
               Confirm

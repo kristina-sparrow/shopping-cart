@@ -16,7 +16,7 @@ export default function Products() {
   ));
   return (
     <section className="page-section products">
-      <h2 className="page-title">Products</h2>
+      <h2 className="page-title">Woodblock Prints</h2>
       <div className="product-grid">{productCards}</div>
     </section>
   );

@@ -15,7 +15,7 @@ const products = [
     title: "View in the Mountains of Hakone",
     artist: "Utagawa Sadahide",
     date: "1863",
-    price: "29.97",
+    price: "495",
     img: img9,
   },
   {
@@ -23,7 +23,7 @@ const products = [
     title: "Great Battle at the Akama Straits",
     artist: "Utagawa Sadahide",
     date: "1830",
-    price: "29.97",
+    price: "495",
     img: img4,
   },
   {
@@ -31,7 +31,7 @@ const products = [
     title: "Actors in the Snow at Ryogoku",
     artist: "Utagawa Kunisada",
     date: "1825",
-    price: "29.97",
+    price: "495",
     img: img1,
   },
   {
@@ -39,7 +39,7 @@ const products = [
     title: "Sumo Wrestlers",
     artist: "Utagawa Kunisada",
     date: "1843",
-    price: "29.97",
+    price: "495",
     img: img7,
   },
   {
@@ -47,7 +47,7 @@ const products = [
     title: "Enjoying Flowers",
     artist: "Toyohara Kunichika",
     date: "1867",
-    price: "29.97",
+    price: "495",
     img: img3,
   },
   {
@@ -55,7 +55,7 @@ const products = [
     title: "View of Enoshima Island",
     artist: "Nobukazu Yosai",
     date: "1892",
-    price: "29.97",
+    price: "495",
     img: img10,
   },
   {
@@ -63,7 +63,7 @@ const products = [
     title: "Takatsuna Swimming with Horse",
     artist: "Utagawa Kuniyoshi",
     date: "1849",
-    price: "29.97",
+    price: "495",
     img: img8,
   },
   {
@@ -71,7 +71,7 @@ const products = [
     title: "Raiko Attacking Shuten-doji",
     artist: "Utagawa Kuniyoshi",
     date: "1851",
-    price: "29.97",
+    price: "495",
     img: img6,
   },
   {
@@ -79,7 +79,7 @@ const products = [
     title: "Courtesan House in Tokyo",
     artist: "Tsukioka Yoshitoshi",
     date: "1870",
-    price: "29.97",
+    price: "495",
     img: img2,
   },
   {
@@ -87,7 +87,7 @@ const products = [
     title: "Lord Harunaga at Mount Komaki",
     artist: "Tsukioka Yoshitoshi",
     date: "1864",
-    price: "29.97",
+    price: "495",
     img: img5,
   },
 ];
